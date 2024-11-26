@@ -13,9 +13,9 @@ export default function Aside() {
     birthday: "Feb 20, 2004",
     socialLinks: {
       facebook: "#",
-      twitter: "#",
+      github: "https://github.com/far120",
       instagram: "#",
-      linkedin: "#",
+      linkedin: "www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5",
       whatsapp: "#",
     },
   };

@@ -2,6 +2,7 @@ import Aside from '../Aside/aside';
 import { useEffect, useState } from 'react';
 import './home.css';
 import { Link } from 'react-router-dom';
+import Files from "./Mostafa-Mahomoud-Hosny-FlowCV-Resume-20241010.pdf"
 
 export default function Home() {
   const [theme, setTheme] = useState(localStorage.getItem("theme") || 'light');
@@ -75,6 +76,14 @@ export default function Home() {
                 <h3>Contact</h3>
                 <p>Reach out to us for any inquiries or questions.</p>
               </Link>
+            </div>
+            <div className="nav-item card">
+            <a href={Files} download>
+              <i className="fas fa-file-pdf"></i>
+              <h3>Resume</h3>
+                <button className='btn'>Download My Resume
+                </button>
+              </a>
             </div>
              
           </nav>
