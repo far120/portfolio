@@ -1,6 +1,7 @@
 import Aside from '../Aside/aside';
 import { useEffect, useState } from 'react';
 import './home.css'
+import './contact.css'
 import { Link } from 'react-router-dom';
 
 export default function Contact() {
@@ -27,7 +28,7 @@ export default function Contact() {
             <button className="btn btn-primary " onClick={toggleTheme} >
             <i className="fa-solid fa-circle-half-stroke"></i>
           </button>
-          <div className="">
+          <div className="contact-section">
   <h1>Contact</h1>
   <p>
     Feel free to reach out to me via email at 
@@ -38,7 +39,7 @@ export default function Contact() {
   </p>
 
   <h2>Social Media</h2>
-  <ul className="">
+  <ul className="social-media-list">
     <li>
       <a href="https://www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5/" target="_blank" >
         <i className="fab fa-linkedin"></i> LinkedIn
@@ -56,9 +57,14 @@ export default function Contact() {
     </li>
   </ul>
 </div>
+            <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home</Link>
+            <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
+            <Link to="/about" className="btn btn-primary" style={{margin:"5px"}}>About Me</Link>
+            <Link to="/skills" className="btn btn-primary" style={{margin:"5px"}}>Skills</Link>
+            <Link to="/projects" className="btn btn-primary" style={{margin:"5px"}}>Projects</Link>
+            <Link to="/workexperinse" className="btn btn-primary" style={{margin:"5px"}}>Work Experience</Link>
+            <Link to="/certifications" className="btn btn-primary" style={{margin:"5px"}}>Certafications</Link>
 
-
-          <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/skills">Skills</Link> | <Link to="/projects">Projects</Link> | <Link to="/workexperinse">Work Experience</Link> | <Link to="/certifications">Certifications</Link> | <Link to="/contact">Contact</Link>
         
            
              
