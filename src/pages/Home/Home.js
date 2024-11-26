@@ -31,7 +31,7 @@ export default function Home() {
             <div className="nav-item card">
               <Link to="/" className="card-link">
                 <i className="fas fa-home"></i>
-                <h3>Home</h3>
+                <h3>home page</h3>
                 <p>Navigate to the homepage to explore recent updates.</p>
               </Link>
             </div>
