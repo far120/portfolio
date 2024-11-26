@@ -15,7 +15,7 @@ export default function Aside() {
       facebook: "#",
       github: "https://github.com/far120",
       instagram: "#",
-      linkedin: "www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5",
+      linkedin: "https://www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5/",
       whatsapp: "#",
     },
   };
