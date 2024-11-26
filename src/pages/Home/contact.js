@@ -31,8 +31,8 @@ export default function Contact() {
   <h1>Contact</h1>
   <p>
     Feel free to reach out to me via email at 
-    <a href="mailto:your@email.com" className="contact-email">
-      your@email.com
+    <a href="mailto:mostafa.m.elfar@email.com" className="contact-email">
+      mostafa.m.elfar@email.com
     </a>
     or connect with me on social media platforms below.
   </p>
@@ -40,22 +40,17 @@ export default function Contact() {
   <h2>Social Media</h2>
   <ul className="">
     <li>
-      <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5/" target="_blank" >
         <i className="fab fa-linkedin"></i> LinkedIn
       </a>
     </li>
     <li>
-      <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/far120" target="_blank" >
         <i className="fab fa-github"></i> GitHub
       </a>
     </li>
     <li>
-      <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-twitter"></i> Twitter
-      </a>
-    </li>
-    <li>
-      <a href="https://facebook.com/your-username" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/tata.far.77?locale=ar_AR" target="_blank" >
         <i className="fab fa-facebook"></i> Facebook
       </a>
     </li>
