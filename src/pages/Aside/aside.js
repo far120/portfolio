@@ -16,7 +16,7 @@ export default function Aside() {
       github: "https://github.com/far120",
       instagram: "https://www.facebook.com/tata.far.77?locale=ar_AR",
       linkedin: "https://www.linkedin.com/in/mostafa-mahmoud-el-far-6a67732b5/",
-      whatsapp: "#",
+      whatsapp: "https://wa.me/+201102453675",
     },
   };
 
