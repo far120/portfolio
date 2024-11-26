@@ -2,7 +2,7 @@ import Aside from '../Aside/aside';
 import { useEffect, useState } from 'react';
 import './home.css'
 import { Link } from 'react-router-dom';
-import Files from './Mostafa-Mahomoud-Hosny-FlowCV-Resume-20241010.pdf';
+import Files from './Mostafa-Mahomoud-Hosny-FlowCV-Resume-20241126 (1).pdf';
 
 export default function About() {
   
