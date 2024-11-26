@@ -56,7 +56,7 @@ export default function Contact() {
       </a>
     </li>
     <li>
-      <a href="https://wa.me/01102453675" target="_blank" >
+      <a href="https://wa.me/+021102453675" target="_blank" >
       <i class="fa-brands fa-whatsapp"></i> whatsap
       </a>
     </li>
