@@ -53,7 +53,7 @@ export default function WorkExprinse() {
         managing code changes effectively in multi-developer environments.
       </li>
     </ul>
-    <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home</Link>
+    <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home page</Link>
             <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
             <Link to="/about" className="btn btn-primary" style={{margin:"5px"}}>About Me</Link>
 

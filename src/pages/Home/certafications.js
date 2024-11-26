@@ -27,6 +27,14 @@ export default function Certifications() {
             <button className="btn btn-primary " onClick={toggleTheme} >
             <i className="fa-solid fa-circle-half-stroke"></i>
           </button>
+          <h1>Certifications</h1>
+          <p>Below are some of my certifications:</p>
+          
+
+
+          <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home page</Link>
+            <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
+            <Link to="/about" className="btn btn-primary" style={{margin:"5px"}}>About Me</Link>
         
            
              

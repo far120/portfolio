@@ -39,7 +39,7 @@ export default function About() {
             <a href={Files} download>
       <button className='btn btn-primary'>Download My resume</button>
         </a>
-            <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home</Link>
+            <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home page</Link>
             <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
 
 

@@ -63,7 +63,7 @@ export default function Contact() {
 
   </ul>
 </div>
-            <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home</Link>
+            <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home page</Link>
             <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
             <Link to="/about" className="btn btn-primary" style={{margin:"5px"}}>About Me</Link>
             <Link to="/skills" className="btn btn-primary" style={{margin:"5px"}}>Skills</Link>

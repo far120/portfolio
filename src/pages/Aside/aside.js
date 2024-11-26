@@ -28,7 +28,7 @@ export default function Aside() {
 
       <div className="aside-content">
         <div className="profile-section">
-          <h2>{userInfo.name}</h2>
+          <h2 style={{fontWeight:"bold"}}>{userInfo.name}</h2>
           <h3 className="title">{userInfo.title}</h3>
           <div className="social-icons">
             {Object.entries(userInfo.socialLinks).map(([key, link]) => (
