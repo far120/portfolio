@@ -55,6 +55,12 @@ export default function Contact() {
         <i className="fab fa-facebook"></i> Facebook
       </a>
     </li>
+    <li>
+      <a href="https://wa.me/01102453675" target="_blank" >
+      <i class="fa-brands fa-whatsapp"></i> whatsap
+      </a>
+    </li>
+
   </ul>
 </div>
             <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home</Link>
