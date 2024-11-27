@@ -29,7 +29,13 @@ export default function Projects() {
           </button>
           <h1 className="section-title">Projects</h1>
           <div className="projects">
-          </div>
+              <p><Link to="https://full-stack-prouduct.vercel.app/" target="_blank" >E-commerce Platform Using MERN Stack<i class="fa-solid fa-link"></i> </Link></p>
+              <p><Link to="https://far-maneger.vercel.app/" target="_blank" >Task Manager with Role-Based Authentication<i class="fa-solid fa-link"></i> </Link></p>
+              <p><Link to="https://elfar-movie-app.vercel.app/" target="_blank" >A Dynamic Film Discovery Platform<i class="fa-solid fa-link"></i> </Link></p>
+            </div>
+            <h3>this is email and password of any project</h3>
+            <p>email == user@user.com </p>
+            <p>password == 123456789 </p>
           <Link to="/" className="btn btn-primary" style={{margin:"5px"}}>Home page</Link>
             <Link to="/contact" className="btn btn-primary" style={{margin:"5px"}}>Contact Me</Link>
             <Link to="/about" className="btn btn-primary" style={{margin:"5px"}}>About Me</Link>
